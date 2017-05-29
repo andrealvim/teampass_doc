@@ -21,6 +21,9 @@ On a Debian GNU/Linux system:
 
 <pre># apt-get install task-web-server php5-mysql php5-mcrypt php5-mbstring php5-fpm php5-iconv php5-xml php5-gd openssl php5-mysqlnd</pre>
 
+For Debian 8 GNU/Linux system:
+<pre># apt-get install task-web-server php5-mcrypt php5-fpm php5-xsl php5-gd openssl php5-mysqlnd php5 php5-curl php5-cgi php5-cli php5-gd mysql-common mysql-server mysql-client apache2 apache2-utils libapache2-mod-php5</pre>
+
 **Edit PHP.ini to increase max_execution_time**:
 
 On a Debian GNU/Linux system:
